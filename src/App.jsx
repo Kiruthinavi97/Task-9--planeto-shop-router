@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white flex justify-between items-center shadow-lg">
-      <Link to="/" className="text-2xl font-bold hover:opacity-90 transition-opacity">🛒 PLANETO</Link>
+      <Link to="/" className="text-4xl font-bold hover:opacity-90 transition-opacity">🛒 PLANETO</Link>
       
       <Link to="/cart" className="relative bg-white text-blue-500 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition-colors">
         View Cart
